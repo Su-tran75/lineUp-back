@@ -15,4 +15,4 @@ Lien de la démo du projet :point_right: https://www.youtube.com/watch?v=sPNnyQS
 ## Repo Back
 Ici vous vous trouvez sur le dépot du backend, réalisé en Symfony. Si vous souhaitez consulter le repo front c'est par ici 
 
-:point_right: https://github.com/Loic-Jouhans/LineUp-front
+:point_right: https://github.com/Su-tran75/lineUp-front.git
