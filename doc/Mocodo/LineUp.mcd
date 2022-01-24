@@ -1,0 +1,11 @@
+own, 01 USER, 11 RESTAURANT
+RESTAURANT: _name, adress, zip, city, phone_number, picture, time_interval, status, siret, trade_name, slug
+has, 11 RESTAURANT, 0N CUISINETYPE
+
+USER: _email, firstname, lastname, password, phone_number, avatar, role, favorite
+belongs to, 11 TICKET, 0N RESTAURANT
+CUISINETYPE: _name
+
+take, 0N USER, 01 TICKET
+TICKET: _guest, name, comment, estimated_time, status
+:

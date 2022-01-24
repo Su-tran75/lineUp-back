@@ -1,0 +1,58 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>RESTAURANT</span> (
+    <span class='normal'>name</span>,
+    <span class='normal'>adress</span>,
+    <span class='normal'>zip</span>,
+    <span class='normal'>city</span>,
+    <span class='normal'>phone_number</span>,
+    <span class='normal'>picture</span>,
+    <span class='normal'>time_interval</span>,
+    <span class='normal'>status</span>,
+    <span class='normal'>siret</span>,
+    <span class='normal'>trade_name</span>,
+    <span class='normal'>slug</span>
+  )
+</div>
+<div>
+  <span class='relation'>USER</span> (
+    <span class='normal'>email</span>,
+    <span class='normal'>firstname</span>,
+    <span class='normal'>lastname</span>,
+    <span class='normal'>password</span>,
+    <span class='normal'>phone_number</span>,
+    <span class='normal'>avatar</span>,
+    <span class='normal'>role</span>,
+    <span class='normal'>favorite</span>
+  )
+</div>
+<!--
+<div>
+  <span class='relation'>CUISINETYPE</span> (
+    <span class='normal'>name</span>
+  )
+</div>
+-->
+<div>
+  <span class='relation'>TICKET</span> (
+    <span class='normal'>guest</span>,
+    <span class='normal'>name</span>,
+    <span class='normal'>comment</span>,
+    <span class='normal'>estimated_time</span>,
+    <span class='normal'>status</span>
+  )
+</div>
+</div>
+</body>
+</html>
